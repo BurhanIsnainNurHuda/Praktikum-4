@@ -93,6 +93,11 @@ uts: 35%, uas: 35%)
 
   5. Menanyakan Apakah Ingin Menambah Data
 
+    # Menanyakan apakah ingin menambah data lagi
+        tambah_data = input("Apakah Anda ingin menambah data? (y/t): ").lower()
+        if tambah_data == 't':
+            break
+
 • Program menanyakan kepada pengguna apakah mereka ingin menambah data lagi dengan pertanyaan "Apakah Anda ingin menambah data? (y/t)".
 
 • Input dari pengguna diubah menjadi huruf kecil dengan `.lower()` untuk memastikan perbandingan yang konsisten.
@@ -102,6 +107,11 @@ uts: 35%, uas: 35%)
   
   6. Menampilkan Daftar Nilai
 
+    # Menampilkan daftar nilai
+      print("\nDaftar Nilai Mahasiswa:")
+      for data in daftar_nilai:
+        print(f"Nama: {data['nama']}, Tugas: {data['nilai_tugas']}, UTS: {data['nilai_uts']}, UAS: {data['nilai_uas']}, Nilai Akhir: {data['nilai_akhir']:.2f}")
+
 • Setelah perulangan berhenti, program mencetak "Daftar Nilai Mahasiswa:".
 
 • Menggunakan perulangan `for`, program iterates melalui setiap item dalam `daftar_nilai` dan mencetak informasi mahasiswa dengan format yang rapi.
@@ -110,5 +120,8 @@ uts: 35%, uas: 35%)
 
   
   7. Menjalankan Program
+
+    if __name__ == "__main__":
+        main()
 
 • Bagian ini memastikan bahwa fungsi `main()` hanya akan dipanggil jika skrip dijalankan secara langsung, bukan jika diimpor sebagai modul di program lain.
