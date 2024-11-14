@@ -47,11 +47,12 @@ uts: 35%, uas: 35%)
  3. Perulangan untuk Memasukkan Data
 
         while True:
-            # Meminta input dari pengguna
-            nama = input("Masukkan nama mahasiswa: ")
-            nilai_tugas = float(input("Masukkan nilai tugas: "))
-            nilai_uts = float(input("Masukkan nilai UTS: "))
-            nilai_uas = float(input("Masukkan nilai UAS: "))
+        # Meminta input dari pengguna
+        nama = input("Masukkan nama mahasiswa: ")
+        nim = input("Masukkan NIM mahasiswa: ")  # Input NIM
+        nilai_tugas = float(input("Masukkan nilai tugas: "))
+        nilai_uts = float(input("Masukkan nilai UTS: "))
+        nilai_uas = float(input("Masukkan nilai UAS: "))
 
 • Perulangan `while True`:
 
@@ -59,6 +60,7 @@ uts: 35%, uas: 35%)
 
 • Di dalam perulangan, program meminta pengguna untuk memasukkan:
   • Nama mahasiswa
+  • Nim mahasiswa 
   • Nilai tugas
   • Nilai UTS
   • Nilai UAS
@@ -74,6 +76,7 @@ uts: 35%, uas: 35%)
         # Menyimpan data ke dalam list
         daftar_nilai.append({
             'nama': nama,
+            'nim': nim,  # Menyimpan NIM
             'nilai_tugas': nilai_tugas,
             'nilai_uts': nilai_uts,
             'nilai_uas': nilai_uas,
@@ -88,6 +91,7 @@ uts: 35%, uas: 35%)
    
    • Menambahkan dictionary ke dalam list `daftar_nilai`. Dictionary ini berisi:
  • Nama mahasiswa
+ • Nim mahasiswa 
  • Nilai tugas
  • Nilai UTS
  • Nilai UAS
