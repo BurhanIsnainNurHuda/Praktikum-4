@@ -17,6 +17,11 @@ uts: 35%, uas: 35%)
    
    • Buat flowchart dan penjelasan program 
 
+# Flowchart 
+
+![IMG_20241114_170318](https://github.com/user-attachments/assets/bfaa66cf-6c1b-4ffc-aafc-01ffe02a47c9)
+
+
 # Python Code
 ![IMG_20241114_161803](https://github.com/user-attachments/assets/1f9c774d-34f4-4afe-baa7-2925942a608b)
 
