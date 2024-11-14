@@ -12,6 +12,9 @@ uts: 35%, uas: 35%)
    
    • Buat flowchart dan penjelasan program 
 
+# Python Code
+![IMG_20241114_161803](https://github.com/user-attachments/assets/1f9c774d-34f4-4afe-baa7-2925942a608b)
+
  # Penjelasan Program
 
  1. Import dan Definisi Fungsi
