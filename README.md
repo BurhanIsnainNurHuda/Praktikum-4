@@ -125,3 +125,5 @@ uts: 35%, uas: 35%)
         main()
 
 • Bagian ini memastikan bahwa fungsi `main()` hanya akan dipanggil jika skrip dijalankan secara langsung, bukan jika diimpor sebagai modul di program lain.
+# Output & Input 
+![IMG_20241114_155041](https://github.com/user-attachments/assets/579b693c-1cd5-4ef3-bfa8-3dacd20878ad)
